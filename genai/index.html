@@ -922,16 +922,23 @@
 </ul>
 <h4 id="fine-tuning-with-unsloth">Fine-tuning with Unsloth</h4>
 <ul>
-<li>Description: Easy way to use QLoRA with speed improvements.<ul>
+<li>
+<p>Description: Easy way to use QLoRA with speed improvements.</p>
+<ul>
 <li>Code Example:
-<code>python
-from unsloth import FastLanguageModel    
-model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name="&lt;MODEL_NAME&gt;", # Replace with your required data location
-    max_seq_length=2048,
-    load_in_4bit=True,
-    )</code></li>
+```python
+from unsloth import FastLanguageModel  </li>
 </ul>
+<p>model, tokenizer = FastLanguageModel.from_pretrained(  </p>
+<pre><code>model_name="&lt;MODEL_NAME&gt;", # Replace with your required data location
+
+max_seq_length=2048,
+
+load_in_4bit=True,
+
+)
+</code></pre>
+<p>```</p>
 </li>
 </ul>
 <h2 id="prompt-engineering-techniques">Prompt Engineering Techniques</h2>
