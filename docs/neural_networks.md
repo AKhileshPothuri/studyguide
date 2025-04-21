@@ -27,4 +27,4 @@ This section covers the fundamentals of neural networks and deep learning.
 ## Resources
 
 *   [Neural Networks and Deep Learning (Book)](http://neuralnetworksanddeeplearning.com/): Great for intuitive understanding.
-*   [Deep Learning (Goodfellow Book)](Link to PDF or purchase page): More comprehensive, but focus on specific chapters.
+*   [Deep Learning (Goodfellow Book)](pdfs/MLOps.pdf): More comprehensive, but focus on specific chapters.

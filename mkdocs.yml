@@ -4,7 +4,7 @@ theme: material
 nav:
   - Home: index.md
   - ML Prep: ml_prep.md
-  - Neural Networks: neural-networks.md
-  - GenAI: gen_ai.md
+  - Neural Networks: neural_networks.md
+  - GenAI: genai.md
   - Research Papers: research.md
   - Useful Links: external_links.md

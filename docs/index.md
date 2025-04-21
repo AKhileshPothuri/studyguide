@@ -8,8 +8,7 @@ This website is a compilation of resources I'm using to prepare for Machine Lear
 *   [Neural Networks](neural_networks.md)
 *   [GenAI](genai.md)
 *   [Research Papers](research.md)
-    *   [Recent Research Trends](recent-trends.md)
-*   [Useful Links](external-links.md)
+*   [Useful Links](external_links.md)
 
 ## About Me
 
@@ -21,4 +20,4 @@ Use the navigation links above to explore different areas. I plan to add more to
 
 ## Interview Material
 
-[See the Interview PDFs and External Resources here](external-links.md)
+[See the Interview PDFs and External Resources here](external_links.md)
