@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#research-papers" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -283,6 +288,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -339,6 +346,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -354,9 +363,18 @@
 
 
 
-  <h1>Research Papers</h1>
+<h1 id="research-papers">Research Papers</h1>
+<p>This section links to a list of useful and amazing material for research</p>
+<p>{% for post in posts %}</p>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">{{ post.title }}</h5>
+<p class="card-text">{{ post.description }}</p>
+<a href="{{ post.url }}" class="btn btn-primary">View Article</a>
+</div>
+</div>
 
-
+<p>{% endfor %}</p>
 
 
 
